@@ -15,7 +15,6 @@ if [ ! -d "$DIR" ]; then
 fi
 
 count=0
-#echo "123123123213"
 for file in "$DIR"/*; do
     if [ -f "$file" ]; then
 
